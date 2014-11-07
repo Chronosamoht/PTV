@@ -4,16 +4,45 @@
 <header>
 <!-- Entete de la page -->
 
-<section>
+<div>
 <!-- Recherche avancee -->
+Recherche avancee
 
 
-
-</section>
+</div>
 
 
 <section>
 <!-- Traduction, socialize, inscription, connection, icone_panier -->
+
+
+<section>
+  <!-- Traduction -->
+
+ 
+</section>
+
+<section>
+ <!-- socialize -->
+</section>
+
+<section><!--  , inscription, connection, icone_panier -->
+ <!-- inscription -->
+ 
+ 
+</section>
+
+<section>
+ <!-- connection -->
+ 
+ 
+</section>
+
+<section>
+ <!-- icone_panier -->
+ 
+ 
+</section>
 
 </section>
 
