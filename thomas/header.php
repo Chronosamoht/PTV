@@ -18,30 +18,33 @@ Recherche avancee
 
 <section>
   <!-- Traduction -->
-
- 
+Langue : 
+ <img src="img/fra.png" alt="Drapeau France">
+ <img src="img/uk.png" alt="Drapeau Angleterre">
 </section>
 
 <section>
  <!-- socialize -->
+ 
+ socialize
 </section>
 
-<section><!--  , inscription, connection, icone_panier -->
+<section>
  <!-- inscription -->
- 
+ inscription
  
 </section>
 
 <section>
  <!-- connection -->
- 
+ connection
  
 </section>
 
 <section>
  <!-- icone_panier -->
  
- 
+ icone_panier
 </section>
 
 </section>
