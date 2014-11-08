@@ -4,12 +4,10 @@
 <header>
 <!-- Entete de la page -->
 
-<div>
+<button>
 <!-- Recherche avancee -->
 Recherche avancée
-
-
-</div>
+</button>
 
 
 <section>
@@ -34,35 +32,29 @@ if(isset($lang)) {
 
 ?>
  
-</section>
+<a  href="index.php?lang=fr">
+<img src="img/fb.png" alt="Facebook">
+</a>
 
-<section>
- <!-- socialize -->
- 
- socialize
-</section>
 
-<section>
+<button>
  <!-- inscription -->
  inscription
  
+</button>
+
+<button >  <!-- connexion -->  connexion </button> 
+
+
+
+
+<a  href="index.php?lang=fr">
+<!-- icone_panier -->
+<img src="img/caddie.jpg" alt="caddie">
+</a>
+
+
 </section>
 
-<section>
- <!-- connection -->
- connexion
- 
-</section>
-
-<section>
- <!-- icone_panier -->
- 
- icône_panier
-</section>
-
-</section>
-
-
-<h1> Travel voyage : le meilleur de vos vacances ! </h1>
 
 </header>

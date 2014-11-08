@@ -2,14 +2,14 @@
 
 <nav> 
 <!-- Menu ici -->
-  <a href="/index.php">Accueil</a> |
-  <a href="/activites.php">Activités</a> |
-  <a href="/hebergement.php">Hébergement</a> |
-  <a href="/transport.php">Transport</a>
-  <a href="/planning.php">Mon planning</a>
-  <a href="/packs.php">Nos packs</a>
-  <a href="/recherche.php">Rechercher</a>
-  <a href="/pratique.php">Pratique</a>
+  <a href="/index.php"><button>Accueil</a> </button>
+  <a href="/activites.php"><button>Activités</a> </button>
+  <a href="/hebergement.php"><button>Hébergement</a> </button>
+  <a href="/transport.php"><button>Transport</a> </button>
+  <a href="/planning.php"> <button>Mon planning</a> </button>
+  <a href="/packs.php"><button>Nos packs</a> </button>
+  <a href="/recherche.php"><button>Rechercher</a> </button>
+  <a href="/pratique.php"><button>Pratique</a> </button>
          
 </nav> 
 

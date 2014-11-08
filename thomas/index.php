@@ -12,15 +12,15 @@
 
 <?php include("header.php"); ?>
 
-
+<h1> Travel voyage : le meilleur de vos vacances ! </h1>
 <?php include("menu.php"); ?>
-
-
-
-
-
 <main>
 <!-- Partie principale de la page -->
+
+
+
+
+
 
 <h2> Organisez vos vacances en 3 étapes : </h2>
 
