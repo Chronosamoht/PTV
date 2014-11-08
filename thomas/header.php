@@ -6,7 +6,7 @@
 
 <div>
 <!-- Recherche avancee -->
-Recherche avancee
+Recherche avancée
 
 
 </div>
@@ -18,9 +18,22 @@ Recherche avancee
 
 <section>
   <!-- Traduction -->
-Langue : 
- <img src="img/fra.png" alt="Drapeau France">
- <img src="img/uk.png" alt="Drapeau Angleterre">
+
+<?php 
+
+$lang = $_GET["lang"];
+if(isset($lang)) {
+    if($_GET["lang"]=="fr"){
+        printf("Changer de langue : <a href=\"index.php?lang=en\"> <img src=\"img/uk.png\" alt=\"Drapeau Angleterre\"> </a>");
+    } else {
+        printf("Change Language : <a href=\"index.php?lang=fr\"> <img src=\"img/fra.png\" alt=\"Drapeau Angleterre\"> </a>");
+    }
+} else {
+    printf("Langue : <img src=\"img/uk.png\" alt=\"Drapeau Angleterre\">");
+}
+
+?>
+ 
 </section>
 
 <section>
@@ -37,14 +50,14 @@ Langue :
 
 <section>
  <!-- connection -->
- connection
+ connexion
  
 </section>
 
 <section>
  <!-- icone_panier -->
  
- icone_panier
+ icône_panier
 </section>
 
 </section>
