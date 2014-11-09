@@ -50,6 +50,7 @@
 <p>
 <!-- populaire -->
 Populaire
+<br/>
 <a  href="index.php?lang=fr">
 <!-- photo_vacances -->
 <img src="img/imgvacances/040.jpg" alt="populaire">
@@ -58,7 +59,7 @@ Populaire
 
 <p>
 <!-- News -->
-News
+News <br/>
 <a  href="index.php?lang=fr">
 <!-- photo_vacances -->
 <img src="img/imgvacances/047.jpg" alt="News">
@@ -67,7 +68,7 @@ News
 
 <p>
 <!-- Promotions -->
-Promotions
+Promotions <br/>
 <a  href="index.php?lang=fr">
 <!-- photo_vacances -->
 <img src="img/imgvacances/57.jpg" alt="Promotions">

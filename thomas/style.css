@@ -9,6 +9,11 @@ body {
     background-color: #B0C4DE;
 }
 
+main {
+    width: 1400px; 
+    margin: auto;
+}
+
 section {
     font-family: "Times New Roman";
     font-size: 20px;
@@ -50,7 +55,7 @@ header img  {
 .bonplan img {
     float:left;
     height:275px;
-    width:275px;
+    width:350px;
 }
 
 .bonplan p {
@@ -76,4 +81,17 @@ nav button {
 nav a {
     color: white;
     text-decoration:none;
+}
+
+
+footer {
+    position: relative;
+    top:350px;
+    left:-50%;
+    display:block;
+    text-align:center;
+ /*   position:absolute; */
+    
+    
+    
 }
