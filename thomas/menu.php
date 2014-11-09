@@ -10,6 +10,5 @@
   <a href="/packs.php"><button>Nos packs</a> </button>
   <a href="/recherche.php"><button>Rechercher</a> </button>
   <a href="/pratique.php"><button>Pratique</a> </button>
-         
 </nav> 
 

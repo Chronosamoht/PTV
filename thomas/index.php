@@ -28,23 +28,51 @@
 <section>
 <!-- Rechercher Sélectionner Plannifier -->
 
+<p>
+<h3> Rechercher </h3>
+</p>
 
-<section>
+<p>
+<h3> Sélectionner </h3>
+</p>
+
+<p>
+<h3> Plannifier </h3>
+</p>
+
+</section>
+
+
+<section class="bonplan">
+<!-- Bon plan -->
+<h3> Bon plan </h3>
+
+<p>
 <!-- populaire -->
+Populaire
+<a  href="index.php?lang=fr">
+<!-- photo_vacances -->
+<img src="img/imgvacances/040.jpg" alt="populaire">
+</a>
+</p>
 
-
-</section>
-<section>
+<p>
 <!-- News -->
+News
+<a  href="index.php?lang=fr">
+<!-- photo_vacances -->
+<img src="img/imgvacances/047.jpg" alt="News">
+</a>
+</p>
 
-
-</section>
-<section>
+<p>
 <!-- Promotions -->
-
-
-</section>
-
+Promotions
+<a  href="index.php?lang=fr">
+<!-- photo_vacances -->
+<img src="img/imgvacances/57.jpg" alt="Promotions">
+</a>
+</p>
 
 </section>
 
