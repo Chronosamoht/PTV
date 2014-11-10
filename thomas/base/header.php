@@ -10,11 +10,11 @@ Recherche avancée
 </button>
 
 
-<section>
+<div class="barre_header">
 <!-- Traduction, socialize, inscription, connection, icone_panier -->
 
 
-<section>
+<div class="trad">
   <!-- Traduction -->
 
 <?php 
@@ -31,7 +31,7 @@ if(isset($lang)) {
 }
 
 ?>
- </section>
+ </div>
 <a  href="index.php?lang=fr">
 <img src="img/fb.png" alt="Facebook">
 </a>
@@ -54,7 +54,7 @@ if(isset($lang)) {
 </a>
 
 
-</section>
+</div>
 
 
 </header>

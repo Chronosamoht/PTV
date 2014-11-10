@@ -10,10 +10,10 @@
 <body>
 
 
-<?php include("header.php"); ?>
+<?php include("base/header.php"); ?>
 
 <h1> Travel voyage : le meilleur de vos vacances ! </h1>
-<?php include("menu.php"); ?>
+<?php include("base/menu.php"); ?>
 <main>
 <!-- Partie principale de la page -->
 
@@ -28,17 +28,9 @@
 <section>
 <!-- Rechercher Sélectionner Plannifier -->
 
-<p>
 <h3> Rechercher </h3>
-</p>
-
-<p>
 <h3> Sélectionner </h3>
-</p>
-
-<p>
 <h3> Plannifier </h3>
-</p>
 
 </section>
 
@@ -80,7 +72,7 @@ Promotions <br/>
 
 </main>
 
-<?php include("footer.php"); ?>
+<?php include("base/footer.php"); ?>
 
 
 </body>
