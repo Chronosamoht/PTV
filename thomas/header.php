@@ -31,7 +31,7 @@ if(isset($lang)) {
 }
 
 ?>
- 
+ </section>
 <a  href="index.php?lang=fr">
 <img src="img/fb.png" alt="Facebook">
 </a>
