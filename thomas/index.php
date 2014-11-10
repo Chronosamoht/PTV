@@ -37,7 +37,7 @@
 
 <section class="bonplan">
 <!-- Bon plan -->
-<h3> Bon plan </h3>
+<h3> Bon plans </h3>
 
 <p>
 <!-- populaire -->
