@@ -1,4 +1,4 @@
-<h1>Home of Remi (fear him)</h1>
+<h1>Home of Shizu (on s'essuie les pieds !)</h1>
 <ul style="font-size : 1.5em;">
 <?php
 	$folder = opendir (".");
