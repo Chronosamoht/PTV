@@ -1,11 +1,7 @@
 <!doctype html>
 
 <html lang="fr">
-<head>
-  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-  <title>Travel Voyage !</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+<?php include("base/head.php"); ?>
 
 <body>
 
