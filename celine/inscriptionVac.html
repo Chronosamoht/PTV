@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Formulaire d'inscription vacancier</title>
+    
+    <style>
+        label {
+            display : block;
+        }
+    </style>
+    
+    <script type="text/javascript"> 
+function checkPass()
+{
+var champA = document.getElementById("mdp").value;
+var champB = document.getElementById("mdp2").value;
+var div_comp = document.getElementById("divcomp");
+ 
+if(champA != champB)
+{
+divcomp.innerHTML = "Les deux mots de passe sont différents, recommencez";
+}
+else{
+ divcomp.innerHTML ="";   
+    
+}
+
+}   </script>
+    
+</head>
+
+<body>
+        
+<header>
+<h1>Welcome chez Super Shizu, mangeuse de moh =) et de coli</h1>
+<h2>Essuyez-vous les pieds avant d'entrer </h2>
+</header>   
+        
+    <form method="post" action="inscription.php">   
+    
+<fieldset>   
+<legend>Informations de connexion</legend>       
+<label for="pseudo">Saisissez votre pseudo/identifiant : *</label><input type="text" name="pseudo" id="pseudo" placeholder="Pseudo" required/>
+<label for="mail">Adresse e-mail : *</label><input type="text" name="email" id="mail" placeholder="E-mail"  required/>
+<label for="mdp">Mot de passe : (6 caractères minimum)*</label><input type="password" name="passe" id="mdp" placeholder="Mot de passe" required />
+<label for="mdp2">Confirmation du mot de passe : *</label><input type="password" name="passe2" id="mdp2" placeholder="Mot de passe" onkeyup="checkPass()" required/>
+<div id="divcomp"></div>
+</fieldset> 
+  
+<fieldset>    
+<legend>Informations personnelles</legend>       
+<label for="nom">Saisissez votre nom : </label><input type="text" name="nom" id="nom" placeholder="Nom" />   
+<label for="prenom">Saisissez votre prénom : </label><input type="text" name="prenom" id="prenom" placeholder="Prénom" />
+<label for="dateNaissance">Saisissez votre date de naissance : </label><input type="date" name="dateNaissance" id="datenais"  />
+<label for="adresse">Saisissez votre adresse : </label><input type="text" name="adresse" id="adresse" placeholder="Adresse postale" />
+</fieldset>     
+    
+<p>* : Champ obligatoire</p>
+
+   
+
+<input type="checkbox" name="cond" id="cond" required/>
+<label for="cond">J'accepte les conditions générales d'utilisation de Travel Voyage</label>
+
+<input type="submit" value="M'inscrire"/>
+
+<p>Vous êtes déjà inscrit ? <a href="connexion.html">Connectez-vous ici</a></p>
+
+<p><a href="inscriptionPro.html">Cliquez ici pour créer un compte professionnel</a></p>
+
+</form>   
+
+
+        
+      
+
+</body>
+</html>

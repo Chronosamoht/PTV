@@ -5,7 +5,7 @@
 <?php
 $i = 0;
 $typeservice = $_POST["typeservice"];
-$tags = $_POST["tags"];
+$soustype = $_POST["soustype"];
 
 if ($typeservice != 'default') {
     $choix[$i++] = "typeservice LIKE";
@@ -20,24 +20,23 @@ if ($typeservice != 'default') {
     }
 }
 
-if ($tags != 'default') {
-    $choix[$i++] = "tags LIKE ";
-    switch ($tags) {
+if ($soustype != 'default') {
+    $choix[$i++] = " AND soustype LIKE ";
+    switch ($soustype) {
         case "escalade":
             $choix[$i++] = " 'escalade'";
             break;
-        case "randonnee":
-            $choix[$i++] = " 'randonnee'";
+        case "laser game":
+            $choix[$i++] = " 'laser game'";
             break;
     }
 }
-/*
-  for ($j = 0; $j < $i; $j+=2) {
-  $critere = $critere . $choix[$j] . $choix[$j+1] . " AND ";
-  }
- */
-$critere = $choix[0] . $choix[1];
-if ($i != 0) {
+
+$critere = $choix[0] . $choix[1] . $choix[2] . $choix[3];
+  
+
+echo $critere;
+if ($i >= 2) {
     mysql_connect('localhost', 'projet', 'tejorp');
     mysql_select_db('projet');
     $requete = htmlspecialchars($critere);
@@ -55,7 +54,6 @@ if ($i != 0) {
 
         echo "<br/>";
         echo "<br/>";
-        echo "<a href=\"recherche_rapide.html\">Faire une nouvelle recherche</a>";
     } else {
 
         echo "<h3>Pas de résultats</h3>";
@@ -63,7 +61,9 @@ if ($i != 0) {
     }
     mysql_close();
     echo "<a href=\"recherche_avancee.html\">Réessayez</a> avec autre chose.";
-} else {
+} 
+else {
+    echo "Votre recherche est vide, recommencez <br/>";
     echo "<a href=\"recherche_avancee.html\">Réessayez</a> avec autre chose.";
 }
 ?>

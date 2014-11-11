@@ -14,39 +14,58 @@
         <h2 >Créez votre annonce</h2>
 
         <section style="border: solid black 1px">
-            <article>
-                <p>Photo</p>
-                <img src="photo_activite.jpeg" alt="photo de l'activité" />
-            </article>
 
             <form method="post" action="creation_annonce.php">
+
                 <p>
+                    <label for="intitule" >Intitulé :</label>
+                    <input type="text" name="intitule" id="intitule" size="40" maxlength="30" title="Donnez un nom à votre annonce"/>
+                </p>
+
+
+                <p  title="Décrivez l'annonce que vous proposez"> 
+                    <label for="description">Description :</label>
+                    <textarea name="description" id="description" rows="10" cols="50"></textarea>
+                </p>
+
+
+                <p title="Sélectionnez le type d'annonce que vous proposez">
                     <label>Type : </label>
-                    <select name="type_activite" id="type_activite">
+                    <select name="type_activite" id="type_activite" >
                         <option value="activite"> Activité</option>
                         <option value="hebergement"> Hébergement</option>
                     </select>
                 </p>
-                
-                <p>
-                    <label>Séance libre : </label>
+
+                <p title="Indiquez si l'annonce que vous proposez a des horaires précis ou si le client peut venir à l'heure qu'il souhaite ">
+                    <label >Séance libre : </label>
                     <input type="checkbox" name="oui" id="oui" checked/> <label for="oui">Oui</label>
                     <input type="checkbox" name="non" id="non" /> <label for="non">Non</label>
                 </p>
-                
-                <p>
-                    <label>Sous-type : </label>
-                    <select name="type_activite" id="type_activite">
-                        <option value="activite"> Activités</option>
-                        <option value="hebergement"> Hébergement</option>
+
+                <p title="Précisez la catégorie dans laquelle entre votre annonce">
+                    <label>Catégorie : </label>
+                    <select name="sous_type_activite" id="sous_type_activite">
+                        <option value="sport">Sportive</option>
+                        <option value="gastronomique">Gastronomique</option>
+                        <option value="culturelle">Culturelle</option>
+                        <option value="loisir">Loisir</option>
+                        <option value="transport">Transport</option>
                     </select>
                 </p>
+
+                <p title="Indiquez si du matériel est requis de la part des clients pour participer à votre activité">
+                    <label for="materiel">Matériel nécessaire :</label>
+                    <input type="text" name="materiel" id="materiel" size="75" maxlength="60"/>
+                </p>
+
+
             </form>
-            
+
 
         </section>
-        
-        <script src="miseajour-formulaire.js"></script>
+
+        <!-- <script src="miseajour-formulaire.js"></script> -->
 
     </body>
 
