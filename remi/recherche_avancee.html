@@ -1,0 +1,27 @@
+<head>
+    <meta charset="UTF-8"/>
+</head>
+
+<h1>Travel Voyage</h1>
+<h2>Recherche avancée</h2>
+<form action="recherche_avancee.php" method="post">
+    <form method="POST" action="recherche_avancee.php">
+        <p> 
+            <label>Type :</label>
+            <select name="typeservice" id="typeservice">
+                <option value="default">Veuillez choisir</option>
+                <option value="hebergement">Hebegements</option>
+                <option value="sport">Sport</option>
+            </select>
+
+            <label>Sous-type</label>
+            <select name="tags" id="tags">
+                <option value="default">Veuillez choisir</option>
+                <option value="escalade">Escalade</option>
+                <option value="randonnee">Randonnée</option>
+            </select>
+        </p>
+
+        <input TYPE="submit" NAME="rechercher" VALUE="Rechercher">
+
+    </form>
