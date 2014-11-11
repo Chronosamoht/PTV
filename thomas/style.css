@@ -21,6 +21,18 @@ nav a {
     border-radius:20px;
 }
 
+
+.hebergement div {
+    border:2px solid;
+    border-color:#EF89A8;
+}
+
+.hebergement img {
+    width:350px;
+    height:225px;
+    border-radius:20px;
+}
+
 .packs main {
     border: 2px solid;
     border-color:#E8860C;
