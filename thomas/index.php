@@ -10,10 +10,10 @@
 <body>
 
 
-<?php include("header.php"); ?>
+<?php include("base/header.php"); ?>
 
 <h1> Travel voyage : le meilleur de vos vacances ! </h1>
-<?php include("menu.php"); ?>
+<?php include("base/menu.php"); ?>
 
 <main>
 <!-- Partie principale de la page -->
@@ -83,6 +83,4 @@ Promotions <br/>
 </body>
 
 
-=======
->>>>>>> 762383ae54a1fc508f084c8817529ee76c0fc3aa
 </html>
