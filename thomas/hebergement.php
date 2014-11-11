@@ -18,9 +18,6 @@
 
 <h2> Les Hébergements </h2>
 
-<<<<<<< HEAD
-
-=======
 <div>
 
 <p>
@@ -58,7 +55,6 @@
 
 </p>
 </div>
->>>>>>> 762383ae54a1fc508f084c8817529ee76c0fc3aa
 
 
 </main>
