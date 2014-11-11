@@ -9,14 +9,42 @@ and open the template in the editor.
         <title>Information compte</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
+    <style>
+        label {
+            display : block;
+        }
+        
+        img {
+            height: 200px ;
+            width: 250px ;
+            
+        }
+    </style>
     </head>
     <body>
-        <h1>Vos informations</h1>
+        <h1>Votre compte</h1>
         
         <h2>Votre avatar</h2>
-        <div><img src="cat.png" alt="avatar"/></div>
+        <div><img src="cat.jpg" alt="avatar"/></div>
+        
+        <fieldset>
+            <legend>Mes identifiants</legend>
+            <p>Mon pseudo :</p>
+            <p>Mon e-mail :</p>
+          
+        </fieldset>
+           
         
         
+        <fieldset>
+        <legend>Mes informations personnelles</legend>
+        <label for="nom">Mon nom : </label><input type="text" name="nom" id="nom" placeholder="Nom" />   
+        <label for="prenom">Mon prénom : </label><input type="text" name="prenom" id="prenom" placeholder="Prénom" />
+        <label for="dateNaissance">Ma date de naissance : </label><input type="text" name="dateNaissance" id="datenais"  />
+        <label for="adresse">Mon adresse : </label><input type="text" name="adresse" id="adresse" placeholder="Adresse postale" />
+        
+        </fieldset>
         
     </body>
 </html>
