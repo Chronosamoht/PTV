@@ -1,83 +1,15 @@
-<!doctype html>
-
-<html lang="fr">
-
-<?php include("base/head.php"); ?>
-
-<body>
-
-
-<?php include("base/header.php"); ?>
-
-<h1> Travel voyage : le meilleur de vos vacances ! </h1>
-<?php include("base/menu.php"); ?>
-
-<main>
-<!-- Partie principale de la page -->
-
-
-<h2> Organisez vos vacances en 3 étapes : </h2>
-
-
-<section>
-<!-- Rechercher Sélectionner Plannifier -->
-
-<p>
-<h3> Rechercher </h3>
-</p>
-
-<p>
-<h3> Sélectionner </h3>
-</p>
-
-<p>
-<h3> Plannifier </h3>
-</p>
-
-</section>
-
-
-<section class="bonplan">
-<!-- Bon plan -->
-<h3> Bon plan </h3>
-
-<p>
-<!-- populaire -->
-Populaire
-<br/>
-<a  href="index.php?lang=fr">
-<!-- photo_vacances -->
-<img src="img/imgvacances/040.jpg" alt="populaire">
-</a>
-</p>
-
-<p>
-<!-- News -->
-News <br/>
-<a  href="index.php?lang=fr">
-<!-- photo_vacances -->
-<img src="img/imgvacances/047.jpg" alt="News">
-</a>
-</p>
-
-<p>
-<!-- Promotions -->
-Promotions <br/>
-<a  href="index.php?lang=fr">
-<!-- photo_vacances -->
-<img src="img/imgvacances/57.jpg" alt="Promotions">
-</a>
-</p>
-
-</section>
-
-
-</main>
-
-<?php include("base/footer.php"); ?>
-
-
-</body>
-
-
-</html>
+<h1>Home of ThoThoThomas</h1>
+<ul style="font-size : 1.5em;">
+<?php
+	$folder = opendir (".");
+	while ($file = readdir ($folder)) {
+		if ($file != "." && $file != "index.php") {
+			if(pathinfo($file, PATHINFO_EXTENSION)==""){
+				echo("\t<li><a href=\"".$file."/\">".$file."</a></li>");
+			}else{
+				echo("\t<li><a href=\"".$file."\">".$file."</a></li>");
+			}
+		}
+	}
+?>
+</ul>

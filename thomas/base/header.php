@@ -1,40 +1,43 @@
 
-
+<?php  $nomfichier = basename($_SERVER['SCRIPT_FILENAME']); ?>
 
 <header>
 <!-- Entete de la page -->
 
+
+<div class="recherche">
 <button>
 <!-- Recherche avancee -->
 Recherche avancée
 </button>
 
+<div>
 
-<div class="barre_header">
 <!-- Traduction, socialize, inscription, connection, icone_panier -->
 
+<div class="barre_header">
 
-<div class="trad">
   <!-- Traduction -->
 
 <?php 
 
-$lang = $_GET["lang"];
-if(isset($lang)) {
-    if($_GET["lang"]=="fr"){
-        printf("Changer de langue : <a href=\"index.php?lang=en\"> <img src=\"img/uk.png\" alt=\"Drapeau Angleterre\"> </a>");
-    } else {
-        printf("Change Language : <a href=\"index.php?lang=fr\"> <img src=\"img/fra.png\" alt=\"Drapeau Angleterre\"> </a>");
-    }
+if(isset($_GET["lang"])) {
+	$lang = $_GET["lang"];
 } else {
-    printf("Langue : <img src=\"img/uk.png\" alt=\"Drapeau Angleterre\">");
+	$lang = "fr";
 }
 
+if($lang=="fr"){
+    printf("Changer de langue : <a href=\"$nomfichier?lang=en\"> <img src=\"img/uk.png\" alt=\"Drapeau Angleterre\"> </a>");
+} else {
+    printf("Change Language : <a href=\"$nomfichier?lang=fr\"> <img src=\"img/fra.png\" alt=\"Drapeau Français\"> </a>");
+}
+
+
 ?>
- </div>
-<a  href="index.php?lang=fr">
-<img src="img/fb.png" alt="Facebook">
-</a>
+
+ <?php echo "<a href=\"$nomfichier?lang=fr \"> <img src=\"img/fb.png\" alt=\"Facebook\"></a>";  ?>
+
 
 
 <button>
@@ -48,10 +51,9 @@ if(isset($lang)) {
 
 
 
-<a  href="index.php?lang=fr">
+<?php echo "<a  href=\"$nomfichier?lang=fr \"><img src=\"img/caddie.jpg\" alt=\"caddie\"> </a>"; ?>
 <!-- icone_panier -->
-<img src="img/caddie.jpg" alt="caddie">
-</a>
+
 
 
 </div>

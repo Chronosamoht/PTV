@@ -1,5 +1,6 @@
 <!doctype html>
 
+<?php  $nomfichier = basename($_SERVER['SCRIPT_FILENAME']); ?>
 <html lang="fr">
 <?php include("base/head.php"); ?>
 <body>
@@ -18,51 +19,54 @@
 
 <p>
 <h3> Bien être </h3>
-<a  href="index.php?lang=fr">
-<img src="img/imgacti/lotus.jpg" alt="bien-être">
-</a>
+
+ <?php echo("<a href=\"$nomfichier?lang=fr\"> <img src=\"img/imgacti/lotus.jpg\" alt=\"lotus\">
+</a>");  ?>
 
 </p>
 
 <p>
 <h3> Sportive </h3>
-<a  href="index.php?lang=fr">
-<img src="img/imgacti/para.jpg" alt="Sportive">
-</a>
+
+ <?php echo("<a href=\"$nomfichier?lang=fr\"> <img src=\"img/imgacti/para.jpg\" alt=\"Parapente\">
+</a>");  ?>
+
 
 </p>
 
 <p>
 <h3> Balade </h3>
-<a  href="index.php?lang=fr">
-<img src="img/imgacti/rando.jpg" alt="Balade">
-</a>
+
+ <?php echo("<a href=\"$nomfichier?lang=fr\"> <img src=\"img/imgacti/rando.jpg\" alt=\"randonnée\">
+</a>");  ?>
+
 
 </p>
 
 
 <p>
 <h3> Nautique </h3>
-<a  href="index.php?lang=fr">
-<img src="img/imgacti/kayak.jpg" alt="Nautique">
-</a>
+
+ <?php echo("<a href=\"$nomfichier?lang=fr\"> <img src=\"img/imgacti/kayak.jpg\" alt=\"kayak\">
+</a>");  ?>
 
 </p>
 
 
 <p>
 <h3> Gastronomique </h3>
-<a  href="index.php?lang=fr">
-<img src="img/imgacti/gastro.jpg" alt="Gastronomique">
-</a>
+
+ <?php echo("<a href=\"$nomfichier?lang=fr\"> <img src=\"img/imgacti/gastro.jpg\" alt=\"Nourriture\">
+</a>");  ?>
+
 
 </p>
 
 <p>
 <h3> Culturel </h3>
-<a  href="index.php?lang=fr">
-<img src="img/imgacti/musee.jpg" alt="Culturel">
-</a>
+ <?php echo("<a href=\"$nomfichier?lang=fr\"> <img src=\"img/imgacti/musee.jpg\" alt=\"Musée\">
+</a>");  ?>
+
 
 </p>
 

@@ -1,0 +1,118 @@
+
+* {
+
+    padding: 0px;
+    margin: 0px;
+}
+
+
+main section {
+    float : left;
+    display:block;
+}
+
+
+button {
+    font-size:16px;
+    padding: 8px 16px 8px 16px;
+    font-family:sans-serif;
+}
+
+h3 {
+    text-align:center;
+}
+
+.activites img {
+    width:350px;
+    height:225px;
+    border-radius:20px;
+}
+.hebergement img {
+    width:350px;
+    height:225px;
+    border-radius:20px;
+}
+
+.packs section {
+    float:left;
+    height:350px;
+    width:450px;
+    margin:20px;
+}
+
+.resepl nav li {
+    border: 1px solid;
+    border-color: black;
+    border-radius: 3px;
+    border-bottom-color: white;
+    padding: 5px;
+}
+
+.resepl * {
+    border: 1px solid;
+    border-color: black;
+}
+
+h3 {
+    text-align:center;
+}
+
+main {
+    width: 1400px; 
+    margin: auto;
+}
+
+section {
+    font-family: "Times New Roman";
+    font-size: 20px;
+    padding: 15px;
+    margin: 5px;
+}
+
+.recherche {
+    float:left ;
+}
+
+.barre_header {
+    float: right;
+    width: 100%;
+}
+
+header img  {
+    height:32px;
+    width:32px;
+    display: inline-block;
+    text-align: justify;
+}
+
+header div  {
+    display: inline-block;
+    text-align: justify;
+}
+
+
+
+
+.bonplan img {
+    float:left;
+    height:275px;
+    width:350px;
+}
+
+.bonplan p {
+    float:left;
+    padding:15px;
+    margin:15px;
+}
+
+
+nav a {
+    text-decoration:none;
+    font-size:16px;
+    font-family:sans-serif;
+}
+
+nav li {
+    display: inline;
+    padding: 8px 16px 8px 16px;
+}

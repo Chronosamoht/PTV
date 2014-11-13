@@ -1,0 +1,111 @@
+
+* {
+	margin : 0px 0px 0px 0px;
+	padding : 0px 0px 0px 0px;
+}
+
+ul {
+	position : absolute;
+	top : 64px;
+	left : 64px;
+	display : inline-block;
+	min-width : 130px;
+	height : 320px;
+	overflow-y : scroll;
+	border : 2px solid black;
+	margin-right : 150px;
+}
+
+ul li {
+	background-color : #FDD;
+	list-style-type : none;
+	border-bottom : 1px solid black;
+	width : 128px;
+	height : 32px;
+	position : relative;
+}
+
+td li {
+	background-color : #FDD;
+	list-style-type : none;
+	width : 128px;
+	height : 32px;
+	position : relative;
+}
+
+ul li .handle {
+	display : none;
+}
+
+td li .handle {
+	position : absolute;
+	background-color : #FDD;
+	bottom : -10px;
+	left : 50px;
+	width : 30px;
+	height : 16px;
+	text-align : center;
+	border-radius: 5px;
+	border-bottom : 1px solid black;
+	cursor : s-resize;
+}
+
+li a {
+	position : absolute;
+	top : 5px;
+	right : 5px;
+	width : 20px;
+	height : 20px;
+	text-align : center;
+	text-decoration : none;
+	border : 1px solid black;
+}
+
+.draggable{
+	cursor: move;
+  
+	-moz-transition: all 200ms linear;
+	-webkit-transition: all 200ms linear;
+	-o-transition: all 200ms linear;
+	transition: all 200ms linear;
+  
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.dropper{
+	-moz-transition: all 200ms linear;
+	-webkit-transition: all 200ms linear;
+	-o-transition: all 200ms linear;
+	transition: all 200ms linear;
+}
+
+.drop_hover {
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.8) inset;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8) inset;
+}
+
+table {
+	position : absolute;
+	top : 64px;
+	left : 256px;
+	display : inline-block;
+	border-collapse : collapse;
+}
+
+th, td {
+	border : 1px solid black;
+	width : 128px;
+	height : 32px;
+	vertical-align : top;
+}
+
+#lol {
+	width : 1024px;
+	height : 1024px;
+	background-color : white;
+	position : fixed;
+	left : 1289px;
+}

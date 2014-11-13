@@ -7,7 +7,7 @@ if (isset($_POST['pseudo'])) { // on vérifie d'abord l'existence du POST et aus
     mysql_connect('localhost', 'projet', 'tejorp');
     mysql_select_db('projet'); // on se connecte à MySQL.
     $requete = htmlspecialchars($_POST['pseudo']); // on crée une variable $requete pour faciliter l'écriture de la requête SQL
-    $query = mysql_query("SELECT * FROM compte WHERE pseudo LIKE '%$requete%' ORDER BY id DESC") or die(mysql_error());
+    $query = mysql_query("SELECT * FROM comptes WHERE pseudo LIKE '%$requete%' ORDER BY id DESC") or die(mysql_error());
     $nb_resultats = mysql_num_rows($query); // compte le nombre de résultat pour la requete
 
     if ($nb_resultats != 0) {

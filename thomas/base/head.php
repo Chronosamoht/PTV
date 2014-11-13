@@ -1,5 +1,4 @@
 
-
 <head>
   <meta content="text/html; charset=UTF-8" http-equiv="content-type">
 
@@ -10,6 +9,6 @@ Laissez nous trouver pour vous des dizaines d’activités de montagne, vous cho
 <meta name="Keywords" content="Annonce, voyage, montagne, Travel, voyage, travelvoyage, pas, cher, gratuit, facile, easy, mountain, site, 42, pour, vous, innove, activite, loisir, transport, hebergement, hotel, train, chalet, gite, sportif, balade, bon, plan">
 
   <meta http-equiv="Content-Language" content="fr,en">
-  <title>Travel Voyage !</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Travel Voyage ! <?php  echo(ucfirst(basename($_SERVER['SCRIPT_FILENAME'], ".php"))); ?></title>
+  <link rel="stylesheet" href="css/css_moche.css">
 </head>

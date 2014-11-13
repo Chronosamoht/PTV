@@ -18,7 +18,7 @@
 
 <p>
 <h3> Chalet </h3>
-<a  href="index.php?lang=fr">
+<a  href="acceuil.php?lang=fr">
 <img src="img/imgacti/chalet.jpg" alt="chalet">
 </a>
 
@@ -26,7 +26,7 @@
 
 <p>
 <h3> Gîte </h3>
-<a  href="index.php?lang=fr">
+<a  href="acceuil.php?lang=fr">
 <img src="img/imgacti/gite1.jpg" alt="Gite">
 </a>
 
@@ -37,7 +37,7 @@
 <div>
 <p>
 <h3> Refuge </h3>
-<a  href="index.php?lang=fr">
+<a  href="acceuil.php?lang=fr">
 <img src="img/imgacti/refuge.jpg" alt="Refuge">
 </a>
 
@@ -45,7 +45,7 @@
 
 <p>
 <h3> Hotel </h3>
-<a  href="index.php?lang=fr">
+<a  href="acceuil.php?lang=fr">
 <img src="img/imgacti/hotel.jpg" alt="Hotel">
 </a>
 

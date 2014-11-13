@@ -14,67 +14,33 @@
         <h2 >Créez votre annonce</h2>
 
         <section style="border: solid black 1px">
-<<<<<<< HEAD
-            <article>
-                <p>Photo</p>
-                <img src="photo_activite.jpeg" alt="photo de l'activité" />
-            </article>
-
-            <form method="post" action="creation_annonce.php">
-                <p>
-                    <label>Type : </label>
-                    <select name="type_activite" id="type_activite">
-=======
 
             <form method="post" action="creation_annonce.php">
 
                 <p>
                     <label for="intitule" >Intitulé :</label>
-                    <input type="text" name="intitule" id="intitule" size="40" maxlength="30" title="Donnez un nom à votre annonce"/>
+                    <input type="text" name="intitule" id="intitule" size="40" maxlength="30" title="Donnez un nom à votre annonce" placeholder="Votre intitulé"/>
                 </p>
 
 
                 <p  title="Décrivez l'annonce que vous proposez"> 
                     <label for="description">Description :</label>
-                    <textarea name="description" id="description" rows="10" cols="50"></textarea>
+                    <textarea name="description" id="description" rows="10" cols="50" placeholder="Votre description"></textarea>
                 </p>
 
 
                 <p title="Sélectionnez le type d'annonce que vous proposez">
                     <label>Type : </label>
                     <select name="type_activite" id="type_activite" >
->>>>>>> 762383ae54a1fc508f084c8817529ee76c0fc3aa
                         <option value="activite"> Activité</option>
                         <option value="hebergement"> Hébergement</option>
                     </select>
                 </p>
-<<<<<<< HEAD
-                
-                <p>
-                    <label>Séance libre : </label>
-                    <input type="checkbox" name="oui" id="oui" checked/> <label for="oui">Oui</label>
-                    <input type="checkbox" name="non" id="non" /> <label for="non">Non</label>
-                </p>
-                
-                <p>
-                    <label>Sous-type : </label>
-                    <select name="type_activite" id="type_activite">
-                        <option value="activite"> Activités</option>
-                        <option value="hebergement"> Hébergement</option>
-                    </select>
-                </p>
-            </form>
-            
-
-        </section>
-        
-        <script src="miseajour-formulaire.js"></script>
-=======
 
                 <p title="Indiquez si l'annonce que vous proposez a des horaires précis ou si le client peut venir à l'heure qu'il souhaite ">
                     <label >Séance libre : </label>
-                    <input type="checkbox" name="oui" id="oui" checked/> <label for="oui">Oui</label>
-                    <input type="checkbox" name="non" id="non" /> <label for="non">Non</label>
+                    <input type="radio" name="seance_libre" id="oui" value="oui" checked/> <label for="oui">Oui</label>
+                    <input type="radio" name="seance_libre" id="non" value="non"/> <label for="non">Non</label>
                 </p>
 
                 <p title="Précisez la catégorie dans laquelle entre votre annonce">
@@ -90,7 +56,7 @@
 
                 <p title="Indiquez si du matériel est requis de la part des clients pour participer à votre activité">
                     <label for="materiel">Matériel nécessaire :</label>
-                    <input type="text" name="materiel" id="materiel" size="75" maxlength="60"/>
+                    <input type="text" name="materiel" id="materiel" size="75" maxlength="60" placeholder="Votre matériel requis"/>
                 </p>
 
 
@@ -100,7 +66,6 @@
         </section>
 
         <!-- <script src="miseajour-formulaire.js"></script> -->
->>>>>>> 762383ae54a1fc508f084c8817529ee76c0fc3aa
 
     </body>
 
